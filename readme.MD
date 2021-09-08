@@ -11,4 +11,4 @@ WHEN YOU click on a city in the search history
 THEN YOU am again presented with current and future conditions for that city
 ![Screenshot](/asset/image/weather_dashboard.png) 
 ![Deploy Demp](https://jefferywojo98.github.io/Weather_Dashboard/)
-![Deploy app](https://github.com/Jefferywojo98/Weather_Dashboard)
+![Deploy app](https://jefferywojo98.github.io/Weather_Dashboard/)
