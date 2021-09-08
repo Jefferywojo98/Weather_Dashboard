@@ -113,6 +113,6 @@ function initPage() {
     if (searchHistory.length > 0) {
         getWeather(searchHistory[searchHistory.length - 1]);
     }
-
+// when click  it will activate the search and grab the info 
 }
 initPage();
