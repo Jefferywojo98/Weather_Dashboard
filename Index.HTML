@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" href="/asset/style.css" >
+    <link rel="stylesheet" href="/asset/style.css">
     <title>Weather Dashboard</title>
 </head>
+
 <body>
     <nav class="navbar  bg-dark text-white">
         <span class="navbar-brand text-center  bg-dark text-white">Weather Dashboard</span>
@@ -19,14 +22,16 @@
             <div class="col-3 ">
                 <p class="search-header my-1">Search for a city</p>
                 <div class="input-group mb-3">
-                    <input id="city-input" type="text" class="form-control" placeholder="Enter city name" aria-label="Enter city name">
+                    <input id="city-input" type="text" class="form-control" placeholder="Enter city name"
+                        aria-label="Enter city name">
                     <div class="input-group-append">
                         <button class="btn btn-primary bg-dark text-white" type="button" id="search-button">
                             <i class="fas fa-search"></i>
                         </button>
                     </div>
                 </div>
-                <button class="btn btn-primary mb-3 bg-dark text-white" type="button" id="clear-history">Clear history</button>
+                <button class="btn btn-primary mb-3 bg-dark text-white" type="button" id="clear-history">Clear
+                    history</button>
                 <form id="history"></form>
             </div>
             <div class="col-8">
@@ -68,10 +73,10 @@
                 </div>
                 <!-- the 5 day forcast -->
                 <div class="row">
-                    <div class="col forecast  bg-dark text-white"></div>
-                    <div class="col forecast  bg-dark text-white"></div>
                     <div class="col forecast bg-dark text-white"></div>
-                    <div class="col forecast  bg-dark text-white"></div>
+                    <div class="col forecast bg-dark text-white"></div>
+                    <div class="col forecast bg-dark text-white"></div>
+                    <div class="col forecast bg-dark text-white"></div>
                     <div class="col forecast bg-dark text-white "></div>
                 </div>
             </div>
@@ -81,4 +86,5 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="/asset/script.js"></script>
 </body>
+
 </html>
